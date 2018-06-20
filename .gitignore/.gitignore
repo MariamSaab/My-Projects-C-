@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+ string key = "CPP-CPP-CPP";
+ string key1 = "";
+ cout << "Enter the lisence key...\n";
+ cin >> key1;
+ if (key == key1) {
+  cout << "You have cracked me!\n";
+  cout << "Press any key...";
+ }
+ else {
+  cout << "ERROR\n";
+  cout << "Press any key...";
+ }
+    return 0;
+}
